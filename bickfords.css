@@ -1,0 +1,186 @@
+p {
+	font-family: arial;
+	line-height: 150%;
+}
+ul {
+	font-family: arial;
+	color: black;
+	font-size: 16pt;
+	line-height: 150%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+li {
+	display: inline;
+}
+li a {
+    display: inline;
+    width: 150px;
+	font-family: arial;
+	color: black;
+	font-size: 16pt;
+	}
+#header {
+	text-align: center;
+	background-color: white;
+	font-family: arial;
+	text-align:center;
+}
+#nav {
+	font-family: arial;
+	font-size: 16pt;
+	color: black; 
+	text-align: center;
+}
+#nav a:link, #nav a:visited {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-width: 5px;
+	border-color: white;
+	border-style: solid;
+}
+#nav a:hover, #nav a:active {
+    background-color: #b30000;
+}
+#body {
+	/*
+	font-family: arial;
+	font-size: 14pt;
+	text-align: left;
+	color: black; 
+	background-color: white;
+	float: left;
+   	padding: 7px;
+   	line-height: 150%;
+   	*/
+  }
+#menu {
+	font-family: arial;
+	font-size: 16pt;
+	text-align: center;
+	clear: left;
+	padding: 7px;
+}
+#top {
+	font-family: arial;
+	font-size: 40pt;
+	text-align: center;
+	color: black; 
+	margin-top:15px; 
+	margin-bottom:15px;
+}		
+#about {
+	font-family: arial;
+	font-size: 15pt;
+	text-align: center;
+	color: black;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#section_a{
+	font-family: arial;
+	font-size: 16pt;
+	text-align: left;
+	color: black;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	float: left;
+	max-width: 40%;
+}
+#section_b {
+	font-family: arial;
+	font-size: 16pt;
+	text-align: left;
+	color: black;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	float: right;
+	max-width: 40%;
+}
+#law_types {
+	font-family: arial;
+	font-size: 12pt;
+	color: black;
+}
+#summary {
+	font-family: arial;
+	font-size: 14pt;
+	color: black;
+	text-align: left;
+}
+#details {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: left;
+	color: gray;
+}
+#people {
+	font-family: arial;
+	font-size: 15pt;
+	text-align: center;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px; 
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#resources {
+	font-family: arial;
+	font-size: 15pt;
+	text-align: center;
+	padding-left:30%;
+	padding-top:15px;
+	padding-right:30%;
+	padding-bottom:15px;
+}
+#footer {
+	font-family: arial;
+	font-size: 8pt;
+	text-align: center;
+	color: black;
+	background-color: white;
+	clear: both;
+	/*padding-bottom: 5px;*/
+	padding-top: 5px;
+	position: relative;
+	background-color: #f2f2f2;
+}
+#footer_tag {
+	background-color: #e6e6e6;
+	/*background-color: gray;*/
+	font-size: 8pt;
+	text-align: center;
+	font-family: Georgia;
+	padding-bottom: 15px;
+	float: right;
+	clear: both;
+	width: 70px;
+	height: 45px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	border-width: 2px;
+	border-color: purple;
+	border-style: dotted;
+
+}
+#footer_tag a:link {
+	text-decoration: none;
+	color: purple;
+	/*color: white;*/
+	font-weight: bold;
+	line-height: 200%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
