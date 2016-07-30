@@ -4,7 +4,7 @@ def binding_for_page(contents)
 	binding
 end
 
-pages = ["src/pages/about.html.erb", "src/pages/contact.html.erb"]
+pages = ["src/pages/bickfords_home.html.erb", "src/pages/bickfords_contact.html.erb", "src/pages/bickfords.css"]
 pages.each do |page|
 	puts "#{page}"
 	
@@ -12,6 +12,14 @@ pages.each do |page|
 	simple_template = File.read("src/layout.html.erb")
 
 	renderer = ERB.new(simple_template)
-	puts output = renderer.result(binding_for_page(contents))
+	output = renderer.result(binding_for_page(contents))
+
+	output_file_name = page.gsub(".erb", "")
+	output_file_name = output_file_name.gsub("src/pages", "build")
+
+	puts output_file_name
+	
+	File.write(output_file_name, output)
+
 end
 
