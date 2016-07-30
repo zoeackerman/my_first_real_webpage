@@ -4,7 +4,7 @@ def binding_for_page(contents)
 	binding
 end
 
-pages = ["src/pages/bickfords_home.html.erb", "src/pages/bickfords_contact.html.erb", "src/pages/bickfords.css"]
+pages = ["src/pages/bickfords_home.html.erb", "src/pages/bickfords_contact.html.erb"]
 pages.each do |page|
 	puts "#{page}"
 	
